@@ -1,0 +1,11 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-font-family: "RobotoSlab", sans-serif;
+    --third-font-family: "Bilbo Swash Caps", sans-serif;
+    --logo-color-navigations-button: #FED136;
+    --first-background-color: #FFFFFF;
+    --second-background-color: #222222;
+    --sub-title-and-paragraphs: #777777;
+    --form-text-placeholder: #BBBBBB;
+    --liner-outside-form: #CCCCCC;
+}
