@@ -44,7 +44,6 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 3.72;
-    text-align: center;
 }
 
 .services-list-description {
@@ -52,7 +51,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: -0.02em;
-    text-align: center;
     color: var(--sub-title-and-paragraphs);
 }
 
