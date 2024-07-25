@@ -1,11 +1,83 @@
 :root {
     --font-family: "Montserrat", sans-serif;
-    --second-font-family: "RobotoSlab", sans-serif;
+    --second-font-family: "Roboto Slab", sans-serif;
     --third-font-family: "Bilbo Swash Caps", sans-serif;
     --logo-color-navigations-button: #FED136;
-    --first-background-color: #FFFFFF;
+    --contacts-title-and-btn-color: #FFFFFF;
     --second-background-color: #222222;
     --sub-title-and-paragraphs: #777777;
     --form-text-placeholder: #BBBBBB;
     --liner-outside-form: #CCCCCC;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.header-logo {
+    font-family: var(--third-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--logo-color-navigations-button);
+}
+
+.header-list {
+    text-align: center;
+}
+
+.header-link {
+    color: var(--logo-color-navigations-button);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 3.35;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.services-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 3.72;
+    text-align: center;
+}
+
+.services-list-description {
+    font-family: var(--second-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--sub-title-and-paragraphs);
+}
+
+.contacts {
+    background-color: var(--second-background-color);
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -0.03em;
+    color: var(--contacts-title-and-btn-color)
+}
+
+.contacts-form-input {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: var(--form-text-placeholder);
+}
+
+.contacts-form-btn {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: var(--contacts-title-and-btn-color);
+    background-color: var(--logo-color-navigations-button);
 }
